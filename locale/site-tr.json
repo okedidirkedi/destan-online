@@ -1,0 +1,19 @@
+{
+  "product": "Destan Online",
+  "domain": "destanonline.com",
+  "htmlLang": "tr",
+  "documentTitle": "Destan Online",
+  "site": {
+    "brand": "Destan Online",
+    "tagline": "Oyuncu dünyaları",
+    "chooseWorld": "Gireceğin dünyayı seç",
+    "publicWorldsLead": "Destan Online dünyaları. Hesabınla gir.",
+    "publicWorldsCount": "Açık dünyalar",
+    "play": "Oyna",
+    "getDesktopApp": "Masaüstü uygulamayı al",
+    "guestsWelcome": "Misafir açık",
+    "login": "Giriş",
+    "register": "Kayıt",
+    "enterWorld": "Dünyaya Gir"
+  }
+}
