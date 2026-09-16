@@ -1,17 +1,22 @@
 {
   "product": "Destan Online",
   "locale": "tr",
-  "note": "ED5 UI_CUSTOMIZATION.copy + page.tsx customize fallback. Coming soon hardcoded; pack kapalıyken bu metinler görünür.",
+  "note": "Select + customize hardcoded page.tsx pin. public-config.select.copy newCharacterLabel/backLabel canlıda okunmuyor.",
+  "select": {
+    "characters": "Karakterler",
+    "create": "Oluştur",
+    "exitGame": "Çık",
+    "createCharacter": "Karakter Oluştur",
+    "back": "Geri",
+    "delete": "Sil",
+    "slots": "Yuvalar",
+    "selectHero": "Kahraman seç",
+    "selectHeroHint": "Detay için soldan bir karakter seç.",
+    "emptyHeading": "Henüz kahraman yok",
+    "emptyBody": "İlk karakterini oluşturarak efsanene başla."
+  },
   "copy": {
     "title": "Kahramanını Yarat",
-    "tagline": "Yolunu seç. Destanını yaz.",
-    "railFooter": "Destanın burada başlar",
-    "confirmLabel": "Dünyaya Gir",
-    "confirmBusyLabel": "Oluşturuluyor…",
-    "backLabel": "İptal",
-    "cancel": "İptal",
-    "randomizeLabel": "Rastgele",
-    "namePlaceholder": "Kahramanının adını gir",
     "comingSoon": "Yakında",
     "defaultLookHint": "Şimdilik varsayılan görünüm kullanılacak"
   },
@@ -34,22 +39,30 @@
     }
   },
   "screenMap": {
+    "CHARACTERS": "KARAKTERLER",
+    "CREATE": "OLUŞTUR",
+    "EXIT GAME": "ÇIK",
+    "CREATE CHARACTER": "KARAKTER OLUŞTUR",
+    "BACK": "GERİ",
+    "Slots": "Yuvalar",
+    "SELECT A HERO": "KAHRAMAN SEÇ",
+    "Pick a character on the left to see their details.": "Detay için soldan bir karakter seç.",
     "Coming soon": "Yakında",
     "COMING SOON": "Yakında",
     "Body type, build, height, and silhouette options.": "Gövde tipi, yapı, boy ve siluet seçenekleri.",
-    "Eye shape, nose, jaw, scars, and other facial details.": "Göz, burun, çene, yara izi ve yüz detayları.",
-    "Hair styles, beards, and braid presets.": "Saç, sakal ve örgü stilleri.",
-    "Clothes, capes, hats, accessories, and equipment layers.": "Giysi, pelerin, başlık, aksesuar ve ekipman katmanları.",
-    "Skin tone, eye color, hair color, and accent colors.": "Ten, göz, saç ve vurgu renkleri.",
     "Default look will be used for now": "Şimdilik varsayılan görünüm kullanılacak"
   },
   "pageTsxPin": {
+    "CHARACTERS": "KARAKTERLER",
+    "CREATE": "OLUŞTUR",
+    "EXIT GAME": "ÇIK",
+    "CREATE CHARACTER": "KARAKTER OLUŞTUR",
+    "BACK": "GERİ",
+    "Slots": "Yuvalar",
+    "SELECT A HERO": "KAHRAMAN SEÇ",
+    "Pick a character on the left to see their details.": "Detay için soldan bir karakter seç.",
     "Coming soon": "Yakında",
     "Body type, build, height, and silhouette options.": "Gövde tipi, yapı, boy ve siluet seçenekleri.",
-    "Eye shape, nose, jaw, scars, and other facial details.": "Göz, burun, çene, yara izi ve yüz detayları.",
-    "Hair styles, beards, and braid presets.": "Saç, sakal ve örgü stilleri.",
-    "Clothes, capes, hats, accessories, and equipment layers.": "Giysi, pelerin, başlık, aksesuar ve ekipman katmanları.",
-    "Skin tone, eye color, hair color, and accent colors.": "Ten, göz, saç ve vurgu renkleri.",
     "Default look will be used for now": "Şimdilik varsayılan görünüm kullanılacak"
   }
 }
