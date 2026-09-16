@@ -1,0 +1,61 @@
+{
+  "product": "Destan Online",
+  "locale": "tr",
+  "note": "ED5 UI_CUSTOMIZATION.copy + steps. Boş bırakma — motor FORGE YOUR HERO / CLASS LOCKED basar.",
+  "copy": {
+    "title": "Kahramanını Yarat",
+    "tagline": "Yolunu seç. Destanını yaz.",
+    "railFooter": "Destanın burada başlar",
+    "confirmLabel": "Dünyaya Gir",
+    "confirmBusyLabel": "Oluşturuluyor…",
+    "backLabel": "İptal",
+    "randomizeLabel": "Rastgele",
+    "namePlaceholder": "Kahraman adı",
+    "readyLabel": "Görünüm hazır",
+    "incompleteLabel": "Eksik seçim var",
+    "noClassError": "Bir sınıf seç",
+    "noPresetError": "Bir karakter seç",
+    "heading": "Karakter Seç",
+    "emptyHeading": "Henüz kahraman yok",
+    "emptyBody": "Yeni bir destan yaz — dünyan seni bekliyor.",
+    "newCharacterLabel": "Yeni Karakter",
+    "enterWorldLabel": "Dünyaya Gir",
+    "deleteLabel": "Sil",
+    "deleteConfirmLabel": "Silmeyi Onayla",
+    "locationLabel": "Konum",
+    "currencyLabel": "Altın",
+    "playTimeLabel": "Oyun süresi",
+    "lastPlayedLabel": "Son giriş",
+    "classLocked": "Sınıf kilitli",
+    "selectCharacter": "Karakter seç",
+    "cancel": "İptal"
+  },
+  "steps": [
+    {
+      "id": "class",
+      "label": "Sınıf",
+      "sub": "Yolunu seç"
+    },
+    {
+      "id": "preset",
+      "label": "Karakter",
+      "sub": "Bir karakter seç"
+    },
+    {
+      "id": "customize",
+      "label": "Özelleştir",
+      "sub": "Görünüm, yüz, saç, renkler"
+    }
+  ],
+  "screenMap": {
+    "FORGE YOUR HERO": "Kahramanını Yarat",
+    "CHOOSE YOUR PATH. SHAPE YOUR LEGEND.": "Yolunu seç. Destanını yaz.",
+    "CANCEL": "İptal",
+    "CHARACTER": "Karakter",
+    "SELECT A CHARACTER": "Bir karakter seç",
+    "CUSTOMIZE": "Özelleştir",
+    "APPEARANCE, FACE, HAIR, COLORS": "Görünüm, yüz, saç, renkler",
+    "YOUR LEGEND BEGINS HERE": "Destanın burada başlar",
+    "CLASS LOCKED": "Sınıf kilitli"
+  }
+}
