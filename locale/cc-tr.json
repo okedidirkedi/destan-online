@@ -1,7 +1,7 @@
 {
   "product": "Destan Online",
   "locale": "tr",
-  "note": "ED5 UI_CUSTOMIZATION.copy + steps. Boş bırakma — motor FORGE YOUR HERO / CLASS LOCKED basar.",
+  "note": "ED5 UI_CUSTOMIZATION.copy + page.tsx customize fallback. Coming soon hardcoded; pack kapalıyken bu metinler görünür.",
   "copy": {
     "title": "Kahramanını Yarat",
     "tagline": "Yolunu seç. Destanını yaz.",
@@ -9,53 +9,47 @@
     "confirmLabel": "Dünyaya Gir",
     "confirmBusyLabel": "Oluşturuluyor…",
     "backLabel": "İptal",
+    "cancel": "İptal",
     "randomizeLabel": "Rastgele",
-    "namePlaceholder": "Kahraman adı",
-    "readyLabel": "Görünüm hazır",
-    "incompleteLabel": "Eksik seçim var",
-    "noClassError": "Bir sınıf seç",
-    "noPresetError": "Bir karakter seç",
-    "heading": "Karakter Seç",
-    "emptyHeading": "Henüz kahraman yok",
-    "emptyBody": "Yeni bir destan yaz — dünyan seni bekliyor.",
-    "newCharacterLabel": "Yeni Karakter",
-    "enterWorldLabel": "Dünyaya Gir",
-    "deleteLabel": "Sil",
-    "deleteConfirmLabel": "Silmeyi Onayla",
-    "locationLabel": "Konum",
-    "currencyLabel": "Altın",
-    "playTimeLabel": "Oyun süresi",
-    "lastPlayedLabel": "Son giriş",
-    "classLocked": "Sınıf kilitli",
-    "selectCharacter": "Karakter seç",
-    "cancel": "İptal"
+    "namePlaceholder": "Kahramanının adını gir",
+    "comingSoon": "Yakında",
+    "defaultLookHint": "Şimdilik varsayılan görünüm kullanılacak"
   },
-  "steps": [
-    {
-      "id": "class",
-      "label": "Sınıf",
-      "sub": "Yolunu seç"
+  "customize": {
+    "comingSoon": "Yakında",
+    "defaultLook": "Şimdilik varsayılan görünüm kullanılacak",
+    "tabs": {
+      "appearance": "Gövde",
+      "face": "Yüz",
+      "hair": "Saç",
+      "gear": "Ekipman",
+      "colors": "Renkler"
     },
-    {
-      "id": "preset",
-      "label": "Karakter",
-      "sub": "Bir karakter seç"
-    },
-    {
-      "id": "customize",
-      "label": "Özelleştir",
-      "sub": "Görünüm, yüz, saç, renkler"
+    "tabHint": {
+      "appearance": "Gövde tipi, yapı, boy ve siluet seçenekleri.",
+      "face": "Göz, burun, çene, yara izi ve yüz detayları.",
+      "hair": "Saç, sakal ve örgü stilleri.",
+      "gear": "Giysi, pelerin, başlık, aksesuar ve ekipman katmanları.",
+      "colors": "Ten, göz, saç ve vurgu renkleri."
     }
-  ],
+  },
   "screenMap": {
-    "FORGE YOUR HERO": "Kahramanını Yarat",
-    "CHOOSE YOUR PATH. SHAPE YOUR LEGEND.": "Yolunu seç. Destanını yaz.",
-    "CANCEL": "İptal",
-    "CHARACTER": "Karakter",
-    "SELECT A CHARACTER": "Bir karakter seç",
-    "CUSTOMIZE": "Özelleştir",
-    "APPEARANCE, FACE, HAIR, COLORS": "Görünüm, yüz, saç, renkler",
-    "YOUR LEGEND BEGINS HERE": "Destanın burada başlar",
-    "CLASS LOCKED": "Sınıf kilitli"
+    "Coming soon": "Yakında",
+    "COMING SOON": "Yakında",
+    "Body type, build, height, and silhouette options.": "Gövde tipi, yapı, boy ve siluet seçenekleri.",
+    "Eye shape, nose, jaw, scars, and other facial details.": "Göz, burun, çene, yara izi ve yüz detayları.",
+    "Hair styles, beards, and braid presets.": "Saç, sakal ve örgü stilleri.",
+    "Clothes, capes, hats, accessories, and equipment layers.": "Giysi, pelerin, başlık, aksesuar ve ekipman katmanları.",
+    "Skin tone, eye color, hair color, and accent colors.": "Ten, göz, saç ve vurgu renkleri.",
+    "Default look will be used for now": "Şimdilik varsayılan görünüm kullanılacak"
+  },
+  "pageTsxPin": {
+    "Coming soon": "Yakında",
+    "Body type, build, height, and silhouette options.": "Gövde tipi, yapı, boy ve siluet seçenekleri.",
+    "Eye shape, nose, jaw, scars, and other facial details.": "Göz, burun, çene, yara izi ve yüz detayları.",
+    "Hair styles, beards, and braid presets.": "Saç, sakal ve örgü stilleri.",
+    "Clothes, capes, hats, accessories, and equipment layers.": "Giysi, pelerin, başlık, aksesuar ve ekipman katmanları.",
+    "Skin tone, eye color, hair color, and accent colors.": "Ten, göz, saç ve vurgu renkleri.",
+    "Default look will be used for now": "Şimdilik varsayılan görünüm kullanılacak"
   }
 }
