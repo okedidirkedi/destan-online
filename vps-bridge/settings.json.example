@@ -1,0 +1,7 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://lenec.tech",
+    "ANTHROPIC_API_KEY": "BURAYA_ANAHTAR"
+  },
+  "model": "claude-opus-5"
+}

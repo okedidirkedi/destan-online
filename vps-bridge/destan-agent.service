@@ -1,0 +1,15 @@
+[Unit]
+Description=Destan Online Claude Code agent
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/destanonline.com/apps/ed5
+ExecStart=/usr/bin/claude
+Restart=on-failure
+RestartSec=8
+Environment=HOME=/root
+
+[Install]
+WantedBy=multi-user.target
