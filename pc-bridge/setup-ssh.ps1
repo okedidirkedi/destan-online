@@ -3,7 +3,7 @@ $ip = "145.223.116.231"
 $key = "$env:USERPROFILE\.ssh\destan_vps"
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.ssh" | Out-Null
 if (!(Test-Path $key)) {
-  ssh-keygen -t ed25519 -f $key -N "" -C "destan-taner"
+  cmd /c "ssh-keygen -t ed25519 -f "$key" -N "" -C destan-taner"
 }
 $config = "$env:USERPROFILE\.ssh\config"
 $block = @"
