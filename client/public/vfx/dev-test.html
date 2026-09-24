@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <title>Okçu VFX bind test</title>
+  <style>
+    body { margin: 0; background: #7da86a; font-family: sans-serif; color: #111; }
+    #stage { position: relative; width: 900px; height: 420px; }
+    #white { position: absolute; left: 420px; top: 40px; width: 36px; height: 220px; background: #fff; opacity: 0.45; }
+    #white.off { display: none; }
+    #arrow { position: absolute; left: 360px; top: 150px; width: 220px; height: 80px; image-rendering: pixelated; }
+    #status { position: absolute; left: 16px; top: 16px; background: #111; color: #fff; padding: 8px 12px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <div id="stage">
+    <div id="white"></div>
+    <img id="arrow" alt="ok karesi" />
+    <div id="status">bekleniyor</div>
+  </div>
+  <script>
+    class Texture {
+      static from(img) { return { img: img, width: img.naturalWidth, height: img.naturalHeight }; }
+    }
+    class Sprite {
+      constructor() {
+        this.anchor = { set: function () {} };
+        this.visible = false;
+        this.texture = null;
+        this.width = 0;
+        this.height = 0;
+        this.x = 0;
+        this.y = 0;
+      }
+    }
+    var fallback = { visible: true, renderable: true };
+    var inst = {
+      definition: { id: "okcu-shot", name: "Ok Atışı", layers: [{ type: "sprite", params: { mediaSrc: "evfx-shoot-mz" } }] },
+      layerState: new Map([["shot", { fallbackGfx: fallback }]]),
+      container: { scale: { x: 1 }, addChild: function () {} },
+      startTime: performance.now(),
+      durationMs: 450,
+      screenPath: { fromX: 0, fromY: 0, toX: 8, toY: 1, durationMs: 450 }
+    };
+    var listeners = [];
+    window.__ed5Engine = {
+      dayNightOverlay: Object.assign(new Sprite(), { texture: Object.assign(new Texture(), { constructor: Texture }) }),
+      dataDrivenVfxInstances: new Map([["proj", inst]]),
+      app: { ticker: { add: function (fn) { listeners.push(fn); } } }
+    };
+    window.__ed5Engine.dayNightOverlay.constructor = Sprite;
+    window.__okcuTestTick = function () {
+      fallback.visible = true;
+      fallback.renderable = true;
+      listeners.forEach(function (fn) { fn(); });
+      var box = document.getElementById("white");
+      box.classList.toggle("off", fallback.visible === false);
+      var spr = inst.__destanArrows && inst.__destanArrows[0];
+      var img = spr && spr.texture && spr.texture.img;
+      var status = document.getElementById("status");
+      if (img && fallback.visible === false && spr.visible && img.naturalWidth >= 32) {
+        document.getElementById("arrow").src = img.src;
+        status.textContent = "fallback gizli · " + img.naturalWidth + "x" + img.naturalHeight + " · " + img.src.split("/").slice(-2).join("/");
+      } else {
+        status.textContent = "henüz bağlanmadı visible=" + fallback.visible;
+      }
+    };
+  </script>
+  <script src="/vfx/okcu-projectile-vfx.js"></script>
+  <script>
+    var tries = 0;
+    var timer = setInterval(function () {
+      tries += 1;
+      window.__okcuTestTick();
+      if (document.getElementById("status").textContent.indexOf("fallback gizli") === 0 || tries > 40) clearInterval(timer);
+    }, 150);
+  </script>
+</body>
+</html>
