@@ -1,0 +1,268 @@
+{
+  "frameOrder": [
+    "0001",
+    "0003",
+    "0005",
+    "0007",
+    "0009",
+    "0011",
+    "0013",
+    "0015",
+    "0017",
+    "0019",
+    "0021",
+    "0023",
+    "0025",
+    "0027",
+    "0029"
+  ],
+  "note": "Odd frames only. Replace PNGs in place with the Taner pack; do not add even numbers.",
+  "sets": {
+    "arrow": {
+      "tanerPack": "Projectiles Character Pack 1\\Arrow Sprites\\Arrow",
+      "frames": [
+        "0001.png",
+        "0003.png",
+        "0005.png",
+        "0007.png",
+        "0009.png",
+        "0011.png",
+        "0013.png",
+        "0015.png",
+        "0017.png",
+        "0019.png",
+        "0021.png",
+        "0023.png",
+        "0025.png",
+        "0027.png",
+        "0029.png"
+      ],
+      "pixelSize": [
+        128,
+        48
+      ],
+      "sha256_12": [
+        "c031a5b28e9b",
+        "490674aac790",
+        "a4f4f4c460c7",
+        "e021b740a812",
+        "535c0d180256",
+        "39edd940ffaa",
+        "1b2449eaee53",
+        "c01a9c8545ce",
+        "751ab276db31",
+        "a046745184ea",
+        "ca3c5797cb3d",
+        "9e216daa54f8",
+        "f14011472b39",
+        "14bd47a35467",
+        "77c330e54bab"
+      ]
+    },
+    "fire-arrow": {
+      "tanerPack": "Projectiles - 2D HD Character pack 1\\Arrows\\FireArrow",
+      "frames": [
+        "0001.png",
+        "0003.png",
+        "0005.png",
+        "0007.png",
+        "0009.png",
+        "0011.png",
+        "0013.png",
+        "0015.png",
+        "0017.png",
+        "0019.png",
+        "0021.png",
+        "0023.png",
+        "0025.png",
+        "0027.png",
+        "0029.png"
+      ],
+      "pixelSize": [
+        128,
+        48
+      ],
+      "sha256_12": [
+        "6a8f7de35c13",
+        "6965f6250809",
+        "b959a6c14f59",
+        "36f5e54bb9df",
+        "d9e1994e5f8b",
+        "e33480653dc4",
+        "e3e379d0f3c3",
+        "ec647171382d",
+        "d66a3df48fbf",
+        "b34ec9d0796a",
+        "19d365a186aa",
+        "63f41c6c6c1e",
+        "826b8e3f61e7",
+        "d544c7c08a6f",
+        "1d3731b8da07"
+      ]
+    },
+    "magic-arrow": {
+      "tanerPack": "Projectiles Character Pack 1\\Arrow Sprites\\MagicArrow",
+      "frames": [
+        "0001.png",
+        "0003.png",
+        "0005.png",
+        "0007.png",
+        "0009.png",
+        "0011.png",
+        "0013.png",
+        "0015.png",
+        "0017.png",
+        "0019.png",
+        "0021.png",
+        "0023.png",
+        "0025.png",
+        "0027.png",
+        "0029.png"
+      ],
+      "pixelSize": [
+        128,
+        48
+      ],
+      "sha256_12": [
+        "a574585f3de5",
+        "ca93289fdebe",
+        "12bd329e611c",
+        "ed0be88f7ddc",
+        "d930ceaa4ed5",
+        "65e1a3142d15",
+        "3e1ff5c71b92",
+        "4bb98f267a00",
+        "8d0331f53ccb",
+        "0ad5d23beb51",
+        "f818fdfd1806",
+        "bbcecf12f551",
+        "a99569be8f61",
+        "429c1b8b8f7d",
+        "c4429c9397e6"
+      ]
+    },
+    "arrow-rain": {
+      "tanerPack": "Projectiles Character Pack 1\\AoE Sprites\\ArrowRain",
+      "frames": [
+        "0001.png",
+        "0003.png",
+        "0005.png",
+        "0007.png",
+        "0009.png",
+        "0011.png",
+        "0013.png",
+        "0015.png",
+        "0017.png",
+        "0019.png",
+        "0021.png",
+        "0023.png",
+        "0025.png",
+        "0027.png",
+        "0029.png"
+      ],
+      "pixelSize": [
+        128,
+        48
+      ],
+      "sha256_12": [
+        "c031a5b28e9b",
+        "490674aac790",
+        "a4f4f4c460c7",
+        "e021b740a812",
+        "535c0d180256",
+        "39edd940ffaa",
+        "1b2449eaee53",
+        "c01a9c8545ce",
+        "751ab276db31",
+        "a046745184ea",
+        "ca3c5797cb3d",
+        "9e216daa54f8",
+        "f14011472b39",
+        "14bd47a35467",
+        "77c330e54bab"
+      ]
+    },
+    "fire-arrow-rain": {
+      "tanerPack": "Projectiles Character Pack 1\\AoE Sprites\\FireArrowRain",
+      "frames": [
+        "0001.png",
+        "0003.png",
+        "0005.png",
+        "0007.png",
+        "0009.png",
+        "0011.png",
+        "0013.png",
+        "0015.png",
+        "0017.png",
+        "0019.png",
+        "0021.png",
+        "0023.png",
+        "0025.png",
+        "0027.png",
+        "0029.png"
+      ],
+      "pixelSize": [
+        128,
+        48
+      ],
+      "sha256_12": [
+        "6a8f7de35c13",
+        "6965f6250809",
+        "b959a6c14f59",
+        "36f5e54bb9df",
+        "d9e1994e5f8b",
+        "e33480653dc4",
+        "e3e379d0f3c3",
+        "ec647171382d",
+        "d66a3df48fbf",
+        "b34ec9d0796a",
+        "19d365a186aa",
+        "63f41c6c6c1e",
+        "826b8e3f61e7",
+        "d544c7c08a6f",
+        "1d3731b8da07"
+      ]
+    },
+    "dark-arrow-rain": {
+      "tanerPack": "Projectiles Character Pack 1\\AoE Sprites\\DarkArrowRain",
+      "frames": [
+        "0001.png",
+        "0003.png",
+        "0005.png",
+        "0007.png",
+        "0009.png",
+        "0011.png",
+        "0013.png",
+        "0015.png",
+        "0017.png",
+        "0019.png",
+        "0021.png",
+        "0023.png",
+        "0025.png",
+        "0027.png",
+        "0029.png"
+      ],
+      "pixelSize": [
+        128,
+        48
+      ],
+      "sha256_12": [
+        "48db56a17e53",
+        "4a4348e51e1e",
+        "2cceb1e2b094",
+        "5377a45feb0c",
+        "4002d4cc0787",
+        "b525a78b9e9a",
+        "0a6ce76015f9",
+        "9c672eeb28e5",
+        "f9870f68fca1",
+        "157c6224d131",
+        "70a89d81a722",
+        "8ebea8a58645",
+        "dea9526c10a8",
+        "e52dbd6142da",
+        "fe309de3597a"
+      ]
+    }
+  }
+}
